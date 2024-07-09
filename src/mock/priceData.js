@@ -12,7 +12,7 @@ export const productChart = [
         itemName: "stove",
         unitPrice: 9000,
         itemCategory: "appliance",
-        categoryId: "categ1",
+        categoryId: "categ2",
         itemColor: "grey" 
     },
     {

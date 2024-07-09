@@ -1,0 +1,7 @@
+id,itemName,unitPrice,itemCategory,categoryId,itemColor
+1,trolley,4500,modular,categ1,grey
+2,stove,9000,appliance,categ1,grey
+3,chimney,14500,appliance,categ2,black
+4,Dish washer,45000,appliance,categ3,black
+5,Counter,55000,modular,categ1,grey
+6,Crockery unit,19500,modular,categ2,grey

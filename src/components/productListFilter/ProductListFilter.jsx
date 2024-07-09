@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import {
     Typography,
-    Checkbox,
     List,
     ListItem,
     ListItemButton,
@@ -9,17 +8,15 @@ import {
     ListSubheader,
     Stack,
     Select,
-    MenuItem,
-    Button
+    MenuItem
 } from '@mui/material';
 import Item from "../item/Item";
 import useStore from "../../store";
-import DeleteIcon from '@mui/icons-material/Delete';
 
 const ProductListFilter = (props) => {
     const { productList } = props;
     const [selectedQty, setSelectedQty] = useState([]);
-    const {totalPrice, setTotalPrice, itemsCount, setItemsCount} = useStore();
+    const {setTotalPrice, setItemsCount} = useStore();
     const [itemsData, setItemsData] = useState(new Map());
     
 
