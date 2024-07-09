@@ -32,7 +32,7 @@ const ProductListFilter = (props) => {
         setSelectedQty(newSelectedQuantVal);
         const itemMap = new Map(itemsData);
         const valueTotal = val*unitPrice;
-        if(valueTotal==0) {
+        if(valueTotal===0) {
             itemMap.delete(id);
         } else{
             itemMap.set( id, valueTotal );
